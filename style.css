@@ -458,7 +458,7 @@ display: none !important;
 /* responsive */
 @media screen and (max-width: 900px) { 
 h1 {
-  font-size: 8vw;
+  font-size: 7.5vw;
 }
 .intro {
   max-width: calc(100vw - 30px);
@@ -472,6 +472,9 @@ h1 {
 }
 .desc {
   margin: auto;
+}
+.desc h2 {
+  font-size: 70px;
 }
 .sliderfullscreen, .sliderfullscreen2 {
   display: none !important;

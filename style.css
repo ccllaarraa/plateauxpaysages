@@ -24,6 +24,7 @@ h1 {
   top: 2px;
   letter-spacing: 2px;
   z-index: 100;
+  font-weight: normal;
 }
 
 h1 span {
@@ -521,5 +522,12 @@ h1 {
   width: 100px;
   bottom: unset;
   left: 30vw;
+}
+.dessin9 img {
+  width: 100%;
+}
+.contact1,.contact2 {
+  width: calc(100vw - 100px);
+  margin: 0px;
 }
 }

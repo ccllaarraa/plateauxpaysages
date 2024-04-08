@@ -131,7 +131,7 @@ display: none !important;
 .contact1 {
   padding: 20px 40px;
   margin: 30px;
-  background: #ffffff;
+  background: #ffac7a;
   border-radius: 20px;
   font-size: 16px;
   line-height: 1.5;
@@ -342,7 +342,7 @@ opacity: 1 !important;
   color: transparent;
 }
 .sliderfullscreen .close {
-  background: red;
+  /* background: red; */
   position: absolute;
   width: 50px;
   height: 50px;
@@ -351,6 +351,9 @@ opacity: 1 !important;
   z-index: 1;
 }
 
+.close img {
+  width: 50px;
+}
 /* slider plateau */
 
 
@@ -440,11 +443,80 @@ display: none !important;
   color: transparent;
 }
 .sliderfullscreen2 .close {
-  background: #25de08f0;
+  /* background: #25de08f0; */
   position: absolute;
   width: 50px;
   height: 50px;
   right: 0;
   cursor: pointer;
   z-index: 1;
+}
+
+
+
+
+/* responsive */
+@media screen and (max-width: 900px) { 
+h1 {
+  font-size: 8vw;
+}
+.intro {
+  max-width: calc(100vw - 30px);
+}
+.main-ctn {
+  flex-direction: column;
+}
+.buffets, .plateaux {
+  width: calc(100vw - 30px);
+  align-self: center;
+}
+.desc {
+  margin: auto;
+}
+.sliderfullscreen, .sliderfullscreen2 {
+  display: none !important;
+}
+.slider .slick-next, .slider2 .slick-next  {
+  display: block !important;
+  position: absolute;
+  display: block !important;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  color: transparent;
+}
+.slider, .slider2 {
+  padding: 15px 0;
+}
+.slider img, .slider2 img  {
+  max-height: 100vh;
+}
+.dessin6 img , .dessin4 img, .dessin5 img, .dessin14 img{
+  display: none;
+}
+.dessin1 img {
+  width: 200px;
+  top: unset;
+  right: 0px;
+  bottom: 20px;
+}
+.dessin7 img {
+  width: 200px;
+  right: unset;
+   bottom: unset;
+  position: relative;
+}
+.dessin8 img {
+  width: 100px;
+  bottom: unset;
+  left: 30vw;
+}
 }

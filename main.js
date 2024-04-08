@@ -45,7 +45,7 @@ $( document ).ready(function() {
     
     setInterval(function(){
     $(".dessin1 img").addClass("dessinvisible")
-    }, 2000);
+    }, 800);
 
     setInterval(function(){
       $(".dessin2 img").addClass("dessinvisible")
@@ -89,7 +89,7 @@ $( document ).ready(function() {
 
     setInterval(function(){
       $(".dessin12 img").addClass("dessinvisible")
-    }, 9000);
+    }, 1200);
 
     setInterval(function(){
       $(".dessin14 img").addClass("dessinvisible")

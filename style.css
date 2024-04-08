@@ -529,5 +529,6 @@ h1 {
 .contact1,.contact2 {
   width: calc(100vw - 100px);
   margin: 0px;
+  flex-direction: column;
 }
 }

@@ -71,9 +71,6 @@ $( document ).ready(function() {
       $(".dessin10 img").addClass("dessinvisible")
     }, 7000);
 
-    setInterval(function(){
-      $(".dessin6 img").addClass("dessinvisible")
-    }, 8000);
 
     setInterval(function(){
       $(".dessin7 img").addClass("dessinvisible")
